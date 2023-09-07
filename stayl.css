@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-box {
+    background: rgba(224, 224, 224, 0.2);
+    text-align: center;
+    padding: 30px 100px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(225, 225, 225, 0.2);
+  }
+
+  .profile {
+    width: 140px;
+    border-radius: 50%;
+    background-color: #2980b9;
+    padding: 6px;
+    margin-top: 80px;
+    transform: translateY(-30%);
+  }
+
+  .profile-box h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: black;
+    transform: translateY(-80%);  
+  }
+  
+  .profile-box p {
+    color: white;
+    background: #2980b9;
+    border-radius: 100px;
+    font-weight: normal;
+    transform: translateY(-140%);
+  }
+
+  .icon {
+   top: 50%;
+   transform: translateY(-30%);
+   width: 100%;
+   text-align: center;
+  }
+
+  .tombol{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    margin: 5px;
+    border-radius: 15%;
+    box-sizing: 0 5px 7.5 -7.5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: #2980b9;
+  }
+
+  .tombol i{
+    transition: 0.2s linear;
+    font-size: 26px;
+    line-height: 50px;
+  }
+
+  .tombol:hover i{
+   transform: scale(1.3);
+   color: black;
+  }
+
+  .profile-box h4 {
+    font-size: 15px;
+    margin-top: 50px;
+    color: white;
+    font-style: normal;
+    transform: translateY(-100%);
+  }
+  
+  .profile-box h2 {
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 100;
+    color: white;
+  }
+
+
+
+
+
+
